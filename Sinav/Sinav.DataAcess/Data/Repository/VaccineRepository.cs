@@ -31,7 +31,7 @@ namespace Sinav.DataAcess.Data.Repository
                 vaccineDb.Name = vaccine.Name;
                 vaccineDb.Description = vaccine.Description;
                 vaccineDb.UpdatedAt = DateTime.UtcNow;
-                vaccineDb.SupplierId = vaccine.Supplier.Id;
+                vaccineDb.SupplierId = vaccine.SupplierId;
             }
         }
     }

@@ -24,7 +24,7 @@ namespace Sinav.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            VaccineVM vacineVM = new VaccineVM()
+            VaccineVM vacineVM = new()
             {
                 Vaccine = new Vaccine(),
                 SupplierList = _unitOfWork.Supplier.GetListSuppliers(),
@@ -56,7 +56,7 @@ namespace Sinav.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Edit(int? id)
         {
-            VaccineVM vaccineVM = new VaccineVM()
+            VaccineVM vaccineVM = new()
             {
                 Vaccine = new Vaccine(),
                 SupplierList = _unitOfWork.Supplier.GetListSuppliers()
@@ -74,15 +74,16 @@ namespace Sinav.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(VaccineVM vaccineVM)
         {
-
-            if (ModelState.IsValid)
+            try
             {
                 _unitOfWork.Vaccine.Update(vaccineVM.Vaccine);
                 _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index));  
             }
-
-            return View(vaccineVM);
+            catch (Exception)
+            {
+                throw new Exception("Hubo un error al actualizar la vacuna");
+            }
         }
 
 
