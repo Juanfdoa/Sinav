@@ -16,7 +16,7 @@ namespace Sinav.DataAcess.Data.Repository
 
         public IEnumerable<DiseaseUser> GetListDiseaseUser(int userId)
         {
-            return _context.TblDiseaseUser.Where(x => x.UserId == userId).Include(x => x.Disease);
+            return _context.TblDiseaseUser.Where(x => x.UserId == userId && x.Active).Include(x => x.Disease);
         }
 
         public void Update(DiseaseUser diseaseUser)

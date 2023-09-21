@@ -37,8 +37,8 @@ namespace Sinav.Models.Entities
         public DateTime UpdatedAt { get; set; }
 
 
-        public ICollection<AllergyUser> AllergyUsers { get; set; }
-        public ICollection<DiseaseUser> DiseaseUsers { get; set; }
+        //public virtual ICollection<AllergyUser> AllergyUsers { get; set; }
+        //public virtual ICollection<DiseaseUser> DiseaseUsers { get; set; }
 
 
     }

@@ -13,6 +13,6 @@ namespace Sinav.Models.Entities
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
-        public ICollection<AllergyUser> AllergyUsers { get; set; }
+        //public virtual ICollection<AllergyUser> AllergyUsers { get; set; }
     }
 }

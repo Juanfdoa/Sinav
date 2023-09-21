@@ -39,6 +39,18 @@ namespace Sinav.Areas.Admin.Controllers
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
             }
+            else
+            {
+                foreach (var value in ModelState.Values)
+                {
+                    foreach (var error in value.Errors)
+                    {
+                        var errorMessage = error.ErrorMessage;
+                        var exception = error.Exception;
+                        // Puedes trabajar con el mensaje de error y la excepción si hay una.
+                    }
+                }
+            }
 
             return View(disease);
         }

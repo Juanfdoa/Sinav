@@ -17,7 +17,7 @@ namespace Sinav.DataAcess.Data.Repository
 
         public IEnumerable<SelectListItem> GetListSuppliers()
         {
-            return _context.TblSupplier.Select(x => new SelectListItem()
+            return _context.TblSupplier.Where(x => x.Active).Select(x => new SelectListItem()
             {
                 Text = x.Name,
                 Value = x.Id.ToString()

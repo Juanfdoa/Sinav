@@ -52,16 +52,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3VwcGxpZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Juan.Acevedo/Desktop/Proyecto-SENA/Sinav/Sinav/Areas/Admin/Views/User/AddAllergy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxBZGRBbGxlcmd5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Juan.Acevedo/Desktop/Proyecto-SENA/Sinav/Sinav/Areas/Admin/Views/User/AddDisease.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxBZGREaXNlYXNlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Juan.Acevedo/Desktop/Proyecto-SENA/Sinav/Sinav/Areas/Admin/Views/User/AddVaccine.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxBZGRWYWNjaW5lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Juan.Acevedo/Desktop/Proyecto-SENA/Sinav/Sinav/Areas/Admin/Views/User/Create.cshtml]

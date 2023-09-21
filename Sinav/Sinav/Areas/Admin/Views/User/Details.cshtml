@@ -43,6 +43,9 @@
     {
         formatedGender = "Femenino";
     }
+
+    //id usuario
+    var userId = Model.User.Id;
 }
 
 <div class="container-fluid mt-4">
@@ -91,7 +94,23 @@
                         <ul>
                             @foreach (var item in Model.GetListDiseaseUser)
                             {
-                                <li>@item.Disease.Name - @item.Observations</li>
+                                <li>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                @item.Disease.Name - @item.Observations
+                                            </div>
+                                            <div class="col-md-6">
+                                                <form action="@Url.Action("RemoveDisease", "user")" method="post">
+                                                    <input type="hidden" name="id" value="@item.Id" />
+                                                    <button type="submit" class="btn btn-link p-0 m-0">
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
                             }
                         </ul>
                     }
@@ -99,10 +118,61 @@
                     {
                         <p class="text-center"><strong>A la fecha el usuario no presenta enfermedades</strong></p>
                     }
-                    <div class="col-12 text-center">
-                        <a asp-action="AddDisease" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i> Agregar</a>
+                    <div class="container mb-3">
+                        <div class="col-12">
+                            <!-- Button trigger modal Enfermedad-->
+                            <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#diseaseModal"><i class="fas fa-plus"></i> Agregar</a>
+
+                            <!-- Modal Enfermedad-->
+                            <div class="modal fade" id="diseaseModal" tabindex="-1" aria-labelledby="diseaseModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="text-primary" id="diseaseModalLabel">Enfermedad</h2>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form method="post" asp-action="AddDisease">
+                                                <div class="col-12">
+                                                    <input asp-for="DiseaseUser.UserId" value="@userId" style="display: none" />
+
+                                                    <div class="form-group row">
+                                                        <div class="col-12">
+                                                            <div class="form-floating mb-3">
+                                                                @Html.DropDownListFor(m => m.DiseaseUser.DiseaseId, Model.GetListDiseases,
+                                                                "-Selecciona la enfermedad-", new {@class = "form-control"})
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <div class="col-12">
+                                                            <div class="form-floating mb-3">
+                                                                <input asp-for="DiseaseUser.Observations" class="form-control" autocomplete="name" aria-required="true" placeholder="Observaciones" />
+                                                                <label asp-for="DiseaseUser.Observations">Observaciones</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row mt-2 mb-4">
+                                                        <div class="col-md-3 ">
+                                                            <button type="submit" class="btn btn-outline-success btn-sm form-control">Crear</button>
+                                                        </div>
+                                                        <div class="col-md-3 ">
+                                                            <button type="button" class="btn btn-outline-primary btn-sm form-control" data-bs-dismiss="modal">Cerrar</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
                 <div class="col-md-6">
                      <h5 class="text-primary mb-3">Alergias</h5>
                     @if (Model.GetListAllergyUser.Any())
@@ -110,7 +180,24 @@
                         <ul>
                             @foreach (var item in Model.GetListAllergyUser)
                             {
-                                <li>@item.Allergy.Name - @item.Observations</li>
+                                <li>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                @item.Allergy.Name - @item.Observations
+                                            </div>
+                                            <div class="col-md-6">
+                                                <form action="@Url.Action("RemoveAllergy", "user")" method="post">
+                                                    <input type="hidden" name="id" value="@item.Id" />
+                                                    <button type="submit" class="btn btn-link p-0 m-0">
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </li>
                             }
                         </ul>
                     }
@@ -118,23 +205,66 @@
                     {
                         <p class="text-center"><strong>A la fecha el usuario no presenta alergias</strong></p>
                     }
-                    <div class="col-12 text-center">
-                        <a asp-action="AddAllergy" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i> Agregar</a>
+                    <div class="container">
+                        <div class="col-12">
+                            <!-- Button trigger modal Alergias-->
+                            <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#allergyModal"><i class="fas fa-plus"></i> Agregar</a>
+
+                            <!-- Modal Alergias-->
+                            <div class="modal fade" id="allergyModal" tabindex="-1" aria-labelledby="allergyModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="text-primary" id="allergyModalLabel">Alergia</h2>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form method="post" asp-action="AddAllergy">
+                                                <div class="col-12">
+                                                    <input asp-for="AllergyUser.UserId" value="@userId" style="display: none" />
+
+                                                    <div class="form-group row">
+                                                        <div class="col-12">
+                                                            <div class="form-floating mb-3">
+                                                                @Html.DropDownListFor(m => m.AllergyUser.AllergyId, Model.GetListAllergies,
+                                                                "-Selecciona la alergia-", new {@class = "form-control"})
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <div class="col-12">
+                                                            <div class="form-floating mb-3">
+                                                                <input asp-for="AllergyUser.Observations" class="form-control" autocomplete="name" aria-required="true" placeholder="Observaciones" />
+                                                                <label asp-for="AllergyUser.Observations">Observaciones</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row mt-2 mb-4">
+                                                        <div class="col-md-3 ">
+                                                            <button type="submit" class="btn btn-outline-success btn-sm form-control">Crear</button>
+                                                        </div>
+                                                        <div class="col-md-3 ">
+                                                            <button type="button" class="btn btn-outline-primary btn-sm form-control" data-bs-dismiss="modal">Cerrar</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <hr/>
+
             <div class="row">
                 <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-8">
-                            <h5 class="text-primary mb-3">Inmunizaciones</h5>
-                        </div>
-                        <div class="col-4 text-end">
-                            <a asp-action="AddVaccine" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i> Agregar</a>
-                        </div>
-                    </div>
-                  
+                    <h5 class="text-primary mb-3">Inmunizaciones</h5>
                     <div class="table-responsive">
                         <table class="table">
                             <thead>
@@ -143,6 +273,7 @@
                                     <th class="text-primary" scope="col">Dosis</th>
                                     <th class="text-primary" scope="col">Lote</th>
                                     <th class="text-primary" scope="col">Fecha</th>
+                                    <th class="text-primary" scope="col">Eliminar</th>
                                 </tr>
                             </thead>
 
@@ -151,11 +282,20 @@
                                 <tbody>
                                     @foreach (var item in Model.GetListVaccineUser)
                                     {
+                                         
                                         <tr>
                                             <td>@item.Vaccine.Name</td>
                                             <td>@item.Dose</td>
                                             <td>@item.Rate</td>
-                                            <td>@item.CreatedAt</td>
+                                            <td>@item.CreatedAt.ToShortDateString()</td>
+                                            <td>
+                                                <form action="@Url.Action("RemoveVaccine", "user")" method="post">
+                                                    <input type="hidden" name="id" value="@item.Id" />
+                                                    <button type="submit" class="btn btn-link p-0 m-0">
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </button>
+                                                </form>
+                                            </td>
                                         </tr>
                                     }
                                 </tbody>
@@ -172,6 +312,67 @@
                 <div/>
             </div>
 
+            <div class="container">
+                    <!-- Button trigger modal Vaccine-->
+                    <a class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#vaccineModal"><i class="fas fa-plus"></i> Agregar</a>
+
+                    <!-- Modal Vaccine-->
+                    <div class="modal fade" id="vaccineModal" tabindex="-1" aria-labelledby="vaccineModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="text-primary" id="vaccineModalLabel">Vacuna</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form method="post" asp-action="AddVaccine">
+                                        <div class="col-12">
+                                            <input asp-for="VaccineUser.UserId" value="@userId" style="display: none" />
+
+                                            <div class="form-group row">
+                                                <div class="col-12">
+                                                    <div class="form-floating mb-3">
+                                                        @Html.DropDownListFor(m => m.VaccineUser.VaccineId, Model.GetListVaccines,
+                                                        "-Selecciona la vacuna-", new {@class = "form-control"})
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <div class="col-12">
+                                                    <div class="form-floating mb-3">
+                                                        <input asp-for="VaccineUser.Dose" type="number" class="form-control" autocomplete="name" aria-required="true" placeholder="Dosis" />
+                                                        <label asp-for="VaccineUser.Dose">Dosis</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <div class="col-12">
+                                                    <div class="form-floating mb-3">
+                                                        <input asp-for="VaccineUser.Rate" class="form-control" autocomplete="name" aria-required="true" placeholder="Lote" />
+                                                        <label asp-for="VaccineUser.Rate">Lote</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mt-2 mb-4">
+                                                <div class="col-md-3 ">
+                                                    <button type="submit" class="btn btn-outline-success btn-sm form-control">Crear</button>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <button type="button" class="btn btn-outline-primary btn-sm form-control" data-bs-dismiss="modal">Cerrar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <hr/>
 
             <div>
                 <a asp-controller="User" asp-action="Index">Volver</a>

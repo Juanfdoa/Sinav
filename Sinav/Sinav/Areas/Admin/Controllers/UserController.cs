@@ -86,6 +86,9 @@ namespace Sinav.Areas.Admin.Controllers
             }
 
             userVM.User = _unitOfWork.User.Get(id.Value); ;
+            userVM.GetListVaccines = _unitOfWork.Vaccine.GetListVaccines();
+            userVM.GetListAllergies = _unitOfWork.Allergy.GetListAllergies();
+            userVM.GetListDiseases = _unitOfWork.Disease.GetListDiseases();
             userVM.GetListAllergyUser = _unitOfWork.AllergyUser.GetListAllergyUser(id.Value);
             userVM.GetListDiseaseUser = _unitOfWork.DiseaseUser.GetListDiseaseUser(id.Value);
             userVM.GetListVaccineUser = _unitOfWork.VaccineUser.GetListVaccineUser(id.Value);
@@ -126,29 +129,134 @@ namespace Sinav.Areas.Admin.Controllers
 
         #region Acciones para TblAllergyUser
 
-        [HttpGet]
-        public IActionResult AddAllergy()
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddAllergy(AllergyUser allergyUser)
         {
-            return View();
+            if (allergyUser.AllergyId == 0)
+            {
+                return RedirectToAction("Details", "User", new { id = allergyUser.UserId });
+            }
+            else
+            {
+                if (allergyUser.Observations == null)
+                {
+                    allergyUser.Observations = "";
+                }
+
+                allergyUser.Active = true;
+                allergyUser.CreatedAt = DateTime.Now;
+                allergyUser.UpdatedAt = DateTime.Now;
+
+                _unitOfWork.AllergyUser.Add(allergyUser);
+                _unitOfWork.Save();
+            }
+
+            return RedirectToAction("Details", "User", new { id = allergyUser.UserId });
+
         }
 
+        [HttpPost]
+        public IActionResult RemoveAllergy(int id)
+        {
+            var objDb = _unitOfWork.AllergyUser.Get(id);
+            var userId = objDb.UserId;
+
+            objDb.Active = false;
+            _unitOfWork.AllergyUser.Remove(objDb);
+            _unitOfWork.Save();
+            return RedirectToAction("Details", "User", new { id = userId });
+
+        }
 
         #endregion
 
         #region Acciones para TblDiseaseUser
-        [HttpGet]
-        public IActionResult AddDisease()
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddDisease(DiseaseUser diseaseUser)
         {
-            return View();
+            if (diseaseUser.DiseaseId == 0)
+            {
+                return RedirectToAction("Details", "User", new { id = diseaseUser.UserId });
+            }
+            else
+            {
+                if (diseaseUser.Observations == null)
+                {
+                    diseaseUser.Observations = "";
+                }
+
+                diseaseUser.Active = true;
+                diseaseUser.CreatedAt = DateTime.Now;
+                diseaseUser.UpdatedAt = DateTime.Now;
+
+                _unitOfWork.DiseaseUser.Add(diseaseUser);
+                _unitOfWork.Save();
+            }
+
+            return RedirectToAction("Details", "User", new { id = diseaseUser.UserId });
+
+        }
+
+        [HttpPost]
+        public IActionResult RemoveDisease(int id)
+        {
+            var objDb = _unitOfWork.DiseaseUser.Get(id);
+            var userId = objDb.UserId;
+
+            objDb.Active = false;
+            _unitOfWork.DiseaseUser.Remove(objDb);
+            _unitOfWork.Save();
+            return RedirectToAction("Details", "User", new { id = userId });
+
         }
         #endregion
 
         #region Acciones para TblVaccineUser
-        [HttpGet]
-        public IActionResult AddVaccine()
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddVaccine(VaccineUser vaccineUser)
         {
-            return View();
+            if(vaccineUser.VaccineId == 0)
+            {
+                return RedirectToAction("Details", "User", new { id = vaccineUser.UserId });
+            }
+            else
+            {
+                if(vaccineUser.Dose == 0)
+                {
+                    vaccineUser.Dose = 1;
+                }
+                if(vaccineUser.Rate == null)
+                {
+                    vaccineUser.Rate = "";
+                }
+                vaccineUser.Active = true;
+                vaccineUser.CreatedAt = DateTime.Now;
+                vaccineUser.UpdatedAt = DateTime.Now;
+
+                _unitOfWork.VaccineUser.Add(vaccineUser);
+                _unitOfWork.Save();
+            }
+            
+            return RedirectToAction("Details", "User", new { id = vaccineUser.UserId });
+
+        }
+
+        [HttpPost]
+        public IActionResult RemoveVaccine(int id)
+        {
+            var objDb = _unitOfWork.VaccineUser.Get(id);
+            var userId = objDb.UserId;
+
+            objDb.Active = false;
+            _unitOfWork.VaccineUser.Remove(objDb);
+            _unitOfWork.Save();
+            return RedirectToAction("Details", "User", new { id = userId });
+
         }
         #endregion
+
     }
 }
