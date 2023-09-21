@@ -1,0 +1,102 @@
+﻿@model Sinav.Models.Entities.User
+
+@{
+    ViewData["Title"] = "Nuevo Usuario";
+}
+
+<form method="post" asp-action="Create">
+    <div class="row px-4 offset-1 border mt-5 rounded">
+        <h2 class="mt-3">Crear nuevo usuario</h2>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-11 mt-4">
+
+            <div class="form-group row">
+                <div class="col-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Name" class="form-control" autocomplete="name" aria-required="true" placeholder="Nombre"/>
+                        <label asp-for="Name">Nombre</label>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Surname" class="form-control" autocomplete="surname" aria-required="true" placeholder="Apellido" />
+                        <label asp-for="Surname">Apellido</label>
+                        <span asp-validation-for="Surname" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-6">
+                    <div class="form-floating mb-3">
+                        <select asp-for="DocumentType" class="form-control" aria-required="true" placeholder="Tipo Documento">
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="CC">Cedula de ciudadania</option>
+                            <option value="TI">Tarjeta de identidad</option>
+                            <option value="CE">Cedula de extranjeria</option>
+                            <option value="PA">Pasaporte</option>
+                            <option value="RC">Registro civil</option>
+                        </select>
+                        <label asp-for="DocumentType">Tipo Documento</label>
+                        <span asp-validation-for="DocumentType" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="DocumentNumber" class="form-control" aria-required="true" placeholder="Numero Documento" />
+                        <label asp-for="DocumentNumber">Numero Documento</label>
+                        <span asp-validation-for="DocumentNumber" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Phone" class="form-control" autocomplete="phone" aria-required="true" placeholder="Numero telefonico" />
+                        <label asp-for="Phone">Numero telefonico</label>
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Address" class="form-control" autocomplete="address" aria-required="true" placeholder="Direccion" />
+                        <label asp-for="Address">Direccion</label>
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-6">
+                    <div class="form-floating mb-3">
+                        <select asp-for="Gender" class="form-control" aria-required="true" placeholder="Genero">
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="M">Masculino</option>
+                            <option value="F">Femenino</option>
+                        </select>
+                        <label asp-for="Gender">Genero</label>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                    
+                </div>
+                <div class="col-6">
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Birthdate" class="form-control" aria-required="true" placeholder="Fecha nacimiento" />
+                        <label asp-for="Birthdate">Fecha nacimiento</label>
+                        <span asp-validation-for="Birthdate" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-12">
+                    <partial name="_ViewCreateReturn" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>

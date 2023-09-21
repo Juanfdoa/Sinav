@@ -1,0 +1,11 @@
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\bin\Debug\net7.0\Sinav.Utils.deps.json
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\bin\Debug\net7.0\Sinav.Utils.dll
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\bin\Debug\net7.0\Sinav.Utils.pdb
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.AssemblyInfoInputs.cache
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.AssemblyInfo.cs
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.csproj.CoreCompileInputs.cache
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.dll
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\refint\Sinav.Utils.dll
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.pdb
+C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\ref\Sinav.Utils.dll

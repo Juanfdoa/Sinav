@@ -1,0 +1,55 @@
+﻿@model Sinav.Models.Entities.Allergy
+
+@{
+    ViewData["Title"] = "Actualizar Alergia";
+}
+
+<form method="post" asp-action="Edit">
+    <div class="row px-4 offset-1 border mt-5 rounded">
+        <h2 class="mt-3">Actualizar alergia</h2>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-12 mt-4">
+
+            <div class="form-group row">
+                <div class="col-12">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Name" class="form-control" autocomplete="name" aria-required="true" placeholder="Nombre" />
+                        <label asp-for="Name">Nombre</label>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-12">
+                    <div class="form-floating mb-3">
+                        <textarea asp-for="Description" class="form-control" aria-required="true" placeholder="Descripcion"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row m-3">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary form-control" asp-route-id="@Model.Id">Actualizar</button>
+                </div>
+                <div class="col">
+                    <a asp-action="Index" class="btn btn-success form-control">Regresar</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    <script src="https://cdn.tiny.cloud/1/qukxrn62f4bz0iv6z7enaelkkzuzugir28y709xit9xm659s/tinymce/5/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+    </script>
+}
+

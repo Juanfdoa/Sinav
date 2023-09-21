@@ -1,0 +1,45 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.toast-success {
+    background-color: #52BE80 !important; /* Cambia el color a verde */
+    color: #FFFFFF !important; /* Cambia el color del texto a blanco */
+}
+
+/* Estilos para la tabla DataTables */
+
+/* Cambia el color de fondo de las celdas */
+table.dataTable tbody td {
+    background-color: #f9f9f9 !important; /* Cambia el color de fondo de las celdas */
+}
+
+/* Cambia el color del texto de las celdas */
+table.dataTable tbody td {
+    color: #333 !important; /* Cambia el color del texto de las celdas */
+}
+
+@media screen and (max-width: 670px) {
+    #tblUsers, #tblSupplier {
+    width: 100%; /* Establece el ancho que desees para dispositivos móviles */
+    }
+}
