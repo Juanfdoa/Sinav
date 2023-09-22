@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Sinav.DataAcess.Data.Repository.IRepository;
 using Sinav.Models;
+using Sinav.Models.ViewModels;
 using System.Diagnostics;
 
 namespace Sinav.Areas.Client.Controllers
@@ -7,16 +9,23 @@ namespace Sinav.Areas.Client.Controllers
     [Area("Client")]
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IUnitOfWork unitOfWork)
         {
-            _logger = logger;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            return View();
+            HomeVM homeVM = new()
+            {
+                sliders = _unitOfWork.Slider.GetAll(x => x.Active)
+            };
+
+            ViewBag.IsHome = true;
+
+            return View(homeVM);
         }
 
         public IActionResult Privacy()

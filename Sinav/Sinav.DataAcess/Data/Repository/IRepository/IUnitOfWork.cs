@@ -10,6 +10,7 @@
         IAllergyUserRepository AllergyUser { get; }
         IDiseaseUserRepository DiseaseUser { get; }
         IVaccineUserRepository VaccineUser { get; }
+        ISliderRepository Slider { get; }
 
         void Save();
     }

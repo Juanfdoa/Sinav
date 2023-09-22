@@ -19,5 +19,6 @@ namespace Sinav.Data
         public DbSet<AllergyUser> TblAllergyUser { get; set; }
         public DbSet<DiseaseUser> TblDiseaseUser { get; set; }
         public DbSet<VaccineUser> TblVaccineUser { get; set; }
+        public DbSet<Slider> TblSlider { get; set; }
     }
 }

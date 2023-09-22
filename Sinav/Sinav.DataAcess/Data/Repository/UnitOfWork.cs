@@ -18,6 +18,7 @@ namespace Sinav.DataAcess.Data.Repository
             AllergyUser = new AllergyUserRepository(_context);
             DiseaseUser = new DiseaseUserRepository(_context);
             VaccineUser = new VaccineUserRepository(_context);
+            Slider = new SliderRepository(_context);
         }
 
         public IUserRepository User {  get; set; }
@@ -28,6 +29,7 @@ namespace Sinav.DataAcess.Data.Repository
         public IAllergyUserRepository AllergyUser { get; set; }
         public IDiseaseUserRepository DiseaseUser { get; set; }
         public IVaccineUserRepository VaccineUser { get; set; }
+        public ISliderRepository Slider { get; set; }
 
         public void Dispose()
         {
