@@ -128,7 +128,7 @@ namespace Sinav.Areas.Identity.Pages.Account
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "correo o usuario invalido");
                     return Page();
                 }
             }
