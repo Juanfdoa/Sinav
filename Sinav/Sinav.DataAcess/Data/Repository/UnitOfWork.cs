@@ -19,6 +19,7 @@ namespace Sinav.DataAcess.Data.Repository
             DiseaseUser = new DiseaseUserRepository(_context);
             VaccineUser = new VaccineUserRepository(_context);
             Slider = new SliderRepository(_context);
+            Account = new AccountRepository(_context);
         }
 
         public IUserRepository User {  get; set; }
@@ -30,6 +31,7 @@ namespace Sinav.DataAcess.Data.Repository
         public IDiseaseUserRepository DiseaseUser { get; set; }
         public IVaccineUserRepository VaccineUser { get; set; }
         public ISliderRepository Slider { get; set; }
+        public IAccountRepository Account { get; set; }
 
         public void Dispose()
         {

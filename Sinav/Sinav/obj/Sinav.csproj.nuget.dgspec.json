@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav\\Sinav.csproj": {}
+    "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\Sinav.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj": {
+    "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj",
+        "projectUniqueName": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj",
         "projectName": "Sinav.DataAcess",
-        "projectPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj",
-        "packagesPath": "C:\\Users\\Juan.Acevedo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.DataAcess\\obj\\",
+        "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj",
+        "packagesPath": "C:\\Users\\j\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.DataAcess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Juan.Acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\j\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Models\\Sinav.Models.csproj": {
-                "projectPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Models\\Sinav.Models.csproj"
+              "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj": {
+                "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj"
               },
-              "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj": {
-                "projectPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj"
+              "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj": {
+                "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj"
               }
             }
           }
@@ -99,21 +94,17 @@
         }
       }
     },
-    "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Models\\Sinav.Models.csproj": {
+    "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
+        "projectUniqueName": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
         "projectName": "Sinav.Models",
-        "projectPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
-        "packagesPath": "C:\\Users\\Juan.Acevedo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Models\\obj\\",
+        "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
+        "packagesPath": "C:\\Users\\j\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Juan.Acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\j\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,7 +112,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,6 +130,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.2.9, )"
@@ -169,21 +163,17 @@
         }
       }
     },
-    "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj": {
+    "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj",
         "projectName": "Sinav.Utils",
-        "projectPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj",
-        "packagesPath": "C:\\Users\\Juan.Acevedo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.Utils\\obj\\",
+        "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj",
+        "packagesPath": "C:\\Users\\j\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Utils\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Juan.Acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\j\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -191,7 +181,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -229,21 +218,17 @@
         }
       }
     },
-    "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav\\Sinav.csproj": {
+    "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\Sinav.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav\\Sinav.csproj",
+        "projectUniqueName": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\Sinav.csproj",
         "projectName": "Sinav",
-        "projectPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav\\Sinav.csproj",
-        "packagesPath": "C:\\Users\\Juan.Acevedo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav\\obj\\",
+        "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\Sinav.csproj",
+        "packagesPath": "C:\\Users\\j\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Juan.Acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\j\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -251,15 +236,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj": {
-                "projectPath": "C:\\Users\\Juan.Acevedo\\Desktop\\Proyecto-SENA\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj"
+              "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj": {
+                "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj"
               }
             }
           }

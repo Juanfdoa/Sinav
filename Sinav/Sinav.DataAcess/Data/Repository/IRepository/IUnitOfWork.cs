@@ -11,6 +11,7 @@
         IDiseaseUserRepository DiseaseUser { get; }
         IVaccineUserRepository VaccineUser { get; }
         ISliderRepository Slider { get; }
+        IAccountRepository Account { get; }
 
         void Save();
     }

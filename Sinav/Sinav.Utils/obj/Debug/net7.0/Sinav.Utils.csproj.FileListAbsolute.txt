@@ -9,3 +9,14 @@ C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\S
 C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\refint\Sinav.Utils.dll
 C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.pdb
 C:\Users\Juan.Acevedo\Desktop\Proyecto-SENA\Sinav\Sinav.Utils\obj\Debug\net7.0\ref\Sinav.Utils.dll
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\bin\Debug\net7.0\Sinav.Utils.deps.json
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\bin\Debug\net7.0\Sinav.Utils.dll
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\bin\Debug\net7.0\Sinav.Utils.pdb
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.AssemblyInfoInputs.cache
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.AssemblyInfo.cs
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.csproj.CoreCompileInputs.cache
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.dll
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\refint\Sinav.Utils.dll
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.pdb
+C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\ref\Sinav.Utils.dll

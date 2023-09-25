@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Sinav.Models.Entities;
 
@@ -20,5 +21,6 @@ namespace Sinav.Data
         public DbSet<DiseaseUser> TblDiseaseUser { get; set; }
         public DbSet<VaccineUser> TblVaccineUser { get; set; }
         public DbSet<Slider> TblSlider { get; set; }
+        public DbSet<IdentityUser> Account { get; set; }
     }
 }

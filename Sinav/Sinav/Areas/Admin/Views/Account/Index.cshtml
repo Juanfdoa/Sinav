@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
+@{
+    ViewData["Title"] = "Cuentas";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary">Cuentas</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-primary">
+                <i class="fas fa-plus"></i> &nbsp; Agregar
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="text-primary" scope="col">@Html.DisplayNameFor(m => m.Email)</th>
+                            <th class="text-primary" scope="col">Bloquear/Desbloquear</th>
+                        </tr>
+                    </thead>
+
+                    @foreach (var item in Model)
+                    {
+                        @if (Model.Count() > 0)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(m => item.Email)</td>
+                                <td>
+                                    @if (item.LockoutEnd == null || item.LockoutEnd < DateTime.Now)
+                                    {
+                                        <a class="btn btn-success text-white" asp-action="Lock" style="width:50px" asp-route-userId="@item.Id">
+                                            <i class="fas fa-lock-open"></i>
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-danger text-white" asp-action="Unlock" style="width:50px" asp-route-userId="@item.Id">
+                                            <i class="fas fa-lock"></i>
+                                        </a>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="2"><p class="text-center mt-3"><strong>A la fecha no hay cuentas</strong></p></td>
+                            </tr>
+                        }
+
+                    }
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</div>
