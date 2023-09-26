@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t2qwuSM4zK94DNUPh4HkOBTqut7YOA+a1n+s5lh3zaw=",
+  "Hash": "Aj90C2r0lTmhcxcstjo9jeRzhcT7Z8Z3ytslJuel0J4=",
   "Source": "Sinav",
   "BasePath": "_content/Sinav",
   "Mode": "Default",
@@ -1173,6 +1173,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg",
+      "SourceId": "Sinav",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "BasePath": "_content/Sinav",
+      "RelativePath": "images/news/4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\news\\4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg"
+    },
+    {
       "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
@@ -1290,6 +1307,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\diseases.js"
+    },
+    {
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\news.js",
+      "SourceId": "Sinav",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "BasePath": "_content/Sinav",
+      "RelativePath": "js/news.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\news.js"
     },
     {
       "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\site.js",

@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\images\news\" />
     <Folder Include="wwwroot\images\sliders\" />
   </ItemGroup>
 

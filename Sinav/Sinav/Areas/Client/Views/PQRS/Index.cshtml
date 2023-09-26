@@ -1,0 +1,62 @@
+﻿@model Sinav.Models.Entities.PQRS
+
+@{
+    ViewData["Title"] = "Nuevo PQRS";
+}
+
+<form method="post" asp-action="Create">
+    <div class="row px-4 offset-1 border mt-5 rounded">
+        <h2 class="text-primary mt-3">PQRS</h2>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-11 mt-4">
+
+            <div class="form-group row">
+                <div class="col-12">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Name" class="form-control" autocomplete="name" aria-required="true" placeholder="Nombre" />
+                        <label asp-for="Name">Nombre completo</label>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Email" class="form-control" autocomplete="surname" aria-required="true" placeholder="Apellido" />
+                        <label asp-for="Email">Correo electronico</label>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-12">
+                    <div class="form-floating mb-3">
+                        <select asp-for="Category" class="form-control" aria-required="true" placeholder="Categoria">
+                            <option value="" disabled selected>Selecciona una categoria</option>
+                            <option value="Peticion">Peticion</option>
+                            <option value="Queja">Queja</option>
+                            <option value="Reclamo">Reclamo</option>
+                            <option value="Sugerencia">Sugerencia</option>
+                        </select>
+                        <label asp-for="Category">Categoria</label>
+                        <span asp-validation-for="Category" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating mb-3">
+                        <textarea asp-for="Message" class="form-control" aria-required="true" placeholder="Mensaje"></textarea>
+                        <label asp-for="Message">Mensaje</label>
+                        <span asp-validation-for="Message" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <div class="col-12">
+                    <partial name="_ViewCreateReturn" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>

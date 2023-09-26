@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg"
+    },
+    {
       "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg",
       "PackagePath": "staticwebassets\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg"
     },
@@ -55,6 +59,10 @@
     {
       "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\diseases.js",
       "PackagePath": "staticwebassets\\js\\diseases.js"
+    },
+    {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\news.js",
+      "PackagePath": "staticwebassets\\js\\news.js"
     },
     {
       "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\site.js",

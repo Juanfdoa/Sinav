@@ -12,6 +12,8 @@
         IVaccineUserRepository VaccineUser { get; }
         ISliderRepository Slider { get; }
         IAccountRepository Account { get; }
+        INewRepository News { get; }
+        IPQRSRepository PQRS { get; }
 
         void Save();
     }

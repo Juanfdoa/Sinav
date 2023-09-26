@@ -20,6 +20,8 @@ namespace Sinav.DataAcess.Data.Repository
             VaccineUser = new VaccineUserRepository(_context);
             Slider = new SliderRepository(_context);
             Account = new AccountRepository(_context);
+            News = new NewRepository(_context);
+            PQRS = new PQRSRepository(_context);
         }
 
         public IUserRepository User {  get; set; }
@@ -32,6 +34,8 @@ namespace Sinav.DataAcess.Data.Repository
         public IVaccineUserRepository VaccineUser { get; set; }
         public ISliderRepository Slider { get; set; }
         public IAccountRepository Account { get; set; }
+        public INewRepository News { get; set; }
+        public IPQRSRepository PQRS { get; set; }
 
         public void Dispose()
         {

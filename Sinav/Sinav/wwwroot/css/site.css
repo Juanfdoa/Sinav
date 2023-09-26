@@ -43,3 +43,13 @@ table.dataTable tbody td {
     width: 100%; /* Establece el ancho que desees para dispositivos móviles */
     }
 }
+
+.filaOscura {
+    background-color: #333333; /* Cambia el color oscuro según tus preferencias */
+    color: #ffffff; /* Cambia el color del texto según tus preferencias */
+}
+
+.filaClara {
+    background-color: #ffffff; /* Cambia el color claro según tus preferencias */
+    color: #000000; /* Cambia el color del texto según tus preferencias */
+}

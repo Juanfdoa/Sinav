@@ -1,0 +1,29 @@
+﻿<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-8">
+            <h2 class="text-primary">Slider</h2>
+        </div>
+        <div class="col-4 text-end">
+            <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Agregar</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <table id="tblNews" class="display dataTable" style="width:100%">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Descripcion</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+    </table>
+
+</div>
+
+@section Scripts{
+    <script src="~/js/news.js"></script>
+}

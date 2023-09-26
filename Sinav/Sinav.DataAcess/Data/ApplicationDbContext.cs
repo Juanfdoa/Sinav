@@ -22,5 +22,7 @@ namespace Sinav.Data
         public DbSet<VaccineUser> TblVaccineUser { get; set; }
         public DbSet<Slider> TblSlider { get; set; }
         public DbSet<IdentityUser> Account { get; set; }
+        public DbSet<News> TblNews { get; set; }
+        public DbSet<PQRS> TblPQRS { get; set; }
     }
 }
