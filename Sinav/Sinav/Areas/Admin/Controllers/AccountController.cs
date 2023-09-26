@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Sinav.Data;
 using Sinav.DataAcess.Data.Repository.IRepository;
 using System.Security.Claims;
 
 namespace Sinav.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "SuperAdmin")]
     [Area("Admin")]
     public class AccountController : Controller
     {

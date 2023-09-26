@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Sinav.DataAcess.Data.Repository.IRepository;
 using Sinav.Models.Entities;
 
 namespace Sinav.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "SuperAdmin, Admin")]
     [Area("Admin")]
     public class SupplierController : Controller
     {

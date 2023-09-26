@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Sinav.Utils
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8" />
@@ -34,24 +35,39 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="Admin" asp-controller="User" asp-action="Index">Usuarios</a>
+                            <a class="nav-link" href="">Consultas</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="Admin" asp-controller="Supplier" asp-action="Index">Proveedores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="Admin" asp-controller="Vaccine" asp-action="Index">Vacunas</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Allergy" asp-action="Index">Alergias</a>
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Disease" asp-action="Index">Enfermedades</a>
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Slider" asp-action="Index">Sliders</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Account" asp-action="Index">Cuentas</a>
-                            </div>
-                        </li>
+                        @if(User.IsInRole(CNT.Admin) || User.IsInRole(CNT.SuperAdmin)){
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="User" asp-action="Index">Usuarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Allergy" asp-action="Index">Alergias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Disease" asp-action="Index">Enfermedades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Vaccine" asp-action="Index">Vacunas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Supplier" asp-action="Index">Proveedores</a>
+                            </li>
+                        }
+                        
+                        @if(User.IsInRole(CNT.SuperAdmin)){
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="">Noticias</a>
+                                    <a class="dropdown-item" href="">Sugerencias</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Slider" asp-action="Index">Sliders</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Account" asp-action="Index">Cuentas</a>
+                                </div>
+                            </li>
+                        }
+                        
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>

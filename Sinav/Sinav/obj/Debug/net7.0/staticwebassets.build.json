@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XPyEMXcrnxyh/aFhO1GgUJ2XfgeQk46mgkbkw9NSCHY=",
+  "Hash": "t2qwuSM4zK94DNUPh4HkOBTqut7YOA+a1n+s5lh3zaw=",
   "Source": "Sinav",
   "BasePath": "_content/Sinav",
   "Mode": "Default",
@@ -1222,6 +1222,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\c2d4c1aa-fd47-40be-a8c0-1aa201a7dc85.jpg",
+      "SourceId": "Sinav",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "BasePath": "_content/Sinav",
+      "RelativePath": "images/sliders/c2d4c1aa-fd47-40be-a8c0-1aa201a7dc85.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sliders\\c2d4c1aa-fd47-40be-a8c0-1aa201a7dc85.jpg"
     },
     {
       "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png",
