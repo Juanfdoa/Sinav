@@ -1,11 +1,12 @@
 ﻿@page
+@using Sinav.Utils
 @model RegisterModel
 @{
     ViewData["Title"] = "Register";
 }
 
-<div class="container" style="margin-top:100px; margin-left:10px">
-    <div class="row col-12 " style="background-color:#F8F9F9">
+<div class="container" style="margin-top:70px; margin-left:10px">
+    <div class="row col-12 " >
         <div class="col-md-5 border rounded">
             <div class="col-md-12 px-4 mt-4 mb-4">
                 <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
@@ -26,6 +27,18 @@
                         <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
                         <label asp-for="Input.ConfirmPassword">Confirmar contraseña</label>
                         <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <div class="col-12">
+                            <h6>Seleccionar role:</h6>
+                        </div>
+                        <div class="col-12">
+                            <input type="radio" name="radUserRole" value="@CNT.SuperAdmin" />@CNT.SuperAdmin
+                        </div>
+                        <div class="col-12">
+                            <input type="radio" name="radUserRole" value="@CNT.Admin" />@CNT.Admin
+                        </div>
                     </div>
                     <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Crear</button>
                 </form>

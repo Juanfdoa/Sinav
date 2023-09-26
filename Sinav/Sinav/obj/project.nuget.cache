@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ffmHe9emTENpfr3n987FCJehoDMa5eOul755n7LYLeVhZA52Cf7JcVCl4IU2sVxYMTApnLsel+qUh28dLgcOOA==",
+  "dgSpecHash": "chy7OXDkBxGg1S75xfuxx7PgfqjnUD7xNyhD9mtHyVW7m+1oNZP4TX0OESOaFVN7RoEaeQIpqL6ZALZhK+rpag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\Sinav.csproj",
+  "projectFilePath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\Sinav.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\j\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\j\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -6880,11 +6880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
+      "projectUniqueName": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
       "projectName": "Sinav.Models",
-      "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
+      "projectPath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
       "packagesPath": "C:\\Users\\j\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\obj\\",
+      "outputPath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\j\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -22,3 +22,15 @@ C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\Sinav.Models.d
 C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\refint\Sinav.Models.dll
 C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\Sinav.Models.pdb
 C:\Users\j\Desktop\Sena\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\ref\Sinav.Models.dll
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\bin\Debug\net7.0\Sinav.Models.deps.json
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\bin\Debug\net7.0\Sinav.Models.dll
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\bin\Debug\net7.0\Sinav.Models.pdb
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\Sinav.Models.csproj.AssemblyReference.cache
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\Sinav.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\Sinav.Models.AssemblyInfoInputs.cache
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\Sinav.Models.AssemblyInfo.cs
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\Sinav.Models.csproj.CoreCompileInputs.cache
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\Sinav.Models.dll
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\refint\Sinav.Models.dll
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\Sinav.Models.pdb
+C:\Users\j\Desktop\Sinav\Sinav\Sinav.Models\obj\Debug\net7.0\ref\Sinav.Models.dll

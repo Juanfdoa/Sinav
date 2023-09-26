@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ia3yKn06whxUHVADhPPFLMLpd9BDxCxer9skq5QjTjm/+yLf66+xljTDx2iFpfNu1Wh04yzFTo2py11dDW4PEQ==",
+  "dgSpecHash": "X3sUan4HhwTnN36F0QyWMmNxeX4E4Fwv9LPRvGhI1RmH0EbZBelfpdx3DlcnQz3VUJGTiRs3O9Ps8VJO3p3CAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
+  "projectFilePath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\j\\.nuget\\packages\\entityframework\\6.1.0\\entityframework.6.1.0.nupkg.sha512",
     "C:\\Users\\j\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.4\\microsoft.aspnet.identity.core.2.2.4.nupkg.sha512",

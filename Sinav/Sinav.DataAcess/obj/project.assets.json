@@ -8852,11 +8852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj",
+      "projectUniqueName": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj",
       "projectName": "Sinav.DataAcess",
-      "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj",
+      "projectPath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.DataAcess\\Sinav.DataAcess.csproj",
       "packagesPath": "C:\\Users\\j\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.DataAcess\\obj\\",
+      "outputPath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.DataAcess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\j\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8873,11 +8873,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj": {
-              "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj"
+            "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj": {
+              "projectPath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Models\\Sinav.Models.csproj"
             },
-            "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj": {
-              "projectPath": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj"
+            "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj": {
+              "projectPath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj"
             }
           }
         }

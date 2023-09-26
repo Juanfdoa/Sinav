@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "80TQizS1ABvvm4uSaq6I7Yt/nCCi/fXpvilk6odweFA=",
+  "Hash": "XPyEMXcrnxyh/aFhO1GgUJ2XfgeQk46mgkbkw9NSCHY=",
   "Source": "Sinav",
   "BasePath": "_content/Sinav",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Sinav\\wwwroot",
       "Source": "Sinav",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "Pattern": "**"
     }
@@ -20,7 +20,7 @@
       "Identity": "C:\\Users\\j\\.nuget\\packages\\datatables.net\\1.13.6\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/jquery.dataTables.js",
       "AssetKind": "All",
@@ -37,7 +37,7 @@
       "Identity": "C:\\Users\\j\\.nuget\\packages\\datatables.net\\1.13.6\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.min.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/jquery.dataTables.min.js",
       "AssetKind": "All",
@@ -54,7 +54,7 @@
       "Identity": "C:\\Users\\j\\.nuget\\packages\\datatables.net-responsive\\2.5.0\\contentFiles\\any\\any\\wwwroot\\js\\dataTables.responsive.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/dataTables.responsive.js",
       "AssetKind": "All",
@@ -71,7 +71,7 @@
       "Identity": "C:\\Users\\j\\.nuget\\packages\\datatables.net-responsive\\2.5.0\\contentFiles\\any\\any\\wwwroot\\js\\dataTables.responsive.min.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/dataTables.responsive.min.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "C:\\Users\\j\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Sinav.styles.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Sinav.styles.css",
       "SourceId": "Sinav",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "Sinav.styles.css",
       "AssetKind": "All",
@@ -1119,13 +1119,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Sinav.styles.css"
+      "OriginalItemSpec": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Sinav.styles.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Sinav.bundle.scp.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Sinav.bundle.scp.css",
       "SourceId": "Sinav",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "Sinav.bundle.scp.css",
       "AssetKind": "All",
@@ -1136,13 +1136,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Sinav.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Sinav.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\css\\site.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\favicon.ico",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "images/sliders/1bacc737-4cb4-46f3-83e8-10c39652b079.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\48ab5712-38ed-4656-972f-a2d0ba88b7fa.jpg",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\48ab5712-38ed-4656-972f-a2d0ba88b7fa.jpg",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "images/sliders/48ab5712-38ed-4656-972f-a2d0ba88b7fa.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sliders\\48ab5712-38ed-4656-972f-a2d0ba88b7fa.jpg"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "images/sliders/ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "images/sliders/f6e81905-ffac-42d7-82e9-364983e15ac8.png",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\allergies.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\allergies.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/allergies.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\js\\allergies.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\diseases.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\diseases.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/diseases.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\js\\diseases.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\site.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\sliders.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\sliders.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/sliders.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sliders.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\suppliers.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\suppliers.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/suppliers.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\js\\suppliers.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\users.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\users.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/users.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\js\\users.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\vaccines.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\vaccines.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "js/vaccines.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vaccines.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sena\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
