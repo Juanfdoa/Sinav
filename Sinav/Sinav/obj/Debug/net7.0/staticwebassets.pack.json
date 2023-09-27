@@ -29,8 +29,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\04c20cb9-3a6e-4f22-9820-c05b172f5ffe.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\04c20cb9-3a6e-4f22-9820-c05b172f5ffe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\1f4bb9a5-e778-4598-b56d-bcb72f7fed27.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\1f4bb9a5-e778-4598-b56d-bcb72f7fed27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\3af6a3b3-1b21-4bec-b67a-f856bb94ffff.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\3af6a3b3-1b21-4bec-b67a-f856bb94ffff.jpg"
+    },
+    {
       "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg",
       "PackagePath": "staticwebassets\\images\\news\\4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\64084386-47ed-4ea5-95aa-a1f03fbe0d46.jpeg",
+      "PackagePath": "staticwebassets\\images\\news\\64084386-47ed-4ea5-95aa-a1f03fbe0d46.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\11e28c32-4501-4c5e-874a-f413a5a46bb3.jpg",
+      "PackagePath": "staticwebassets\\images\\sliders\\11e28c32-4501-4c5e-874a-f413a5a46bb3.jpg"
     },
     {
       "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg",
@@ -41,6 +61,18 @@
       "PackagePath": "staticwebassets\\images\\sliders\\48ab5712-38ed-4656-972f-a2d0ba88b7fa.jpg"
     },
     {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\659244d7-65c3-40f2-b741-7825a1f8c5d1.jpg",
+      "PackagePath": "staticwebassets\\images\\sliders\\659244d7-65c3-40f2-b741-7825a1f8c5d1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\8d9e4c17-6330-42e3-ab0d-371c0a20e3e8.png",
+      "PackagePath": "staticwebassets\\images\\sliders\\8d9e4c17-6330-42e3-ab0d-371c0a20e3e8.png"
+    },
+    {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\9d9c9fb0-0197-487f-b503-34582d618439.png",
+      "PackagePath": "staticwebassets\\images\\sliders\\9d9c9fb0-0197-487f-b503-34582d618439.png"
+    },
+    {
       "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg",
       "PackagePath": "staticwebassets\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg"
     },
@@ -49,8 +81,16 @@
       "PackagePath": "staticwebassets\\images\\sliders\\c2d4c1aa-fd47-40be-a8c0-1aa201a7dc85.jpg"
     },
     {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\c3043ed7-787c-46ed-8cbf-5e21e1d659c4.jpg",
+      "PackagePath": "staticwebassets\\images\\sliders\\c3043ed7-787c-46ed-8cbf-5e21e1d659c4.jpg"
+    },
+    {
       "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png",
       "PackagePath": "staticwebassets\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png"
+    },
+    {
+      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\importanciaVacunacion.jpg",
+      "PackagePath": "staticwebassets\\images\\statics\\importanciaVacunacion.jpg"
     },
     {
       "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\allergies.js",

@@ -1,7 +1,50 @@
-﻿@{
+﻿@model Sinav.Models.ViewModels.HomeVM
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Sistema Nacional de Vacunación</h1>
 </div>
+
+<div class="container-fluid mt-5" >
+    <div class="row">
+        <div class="col-md-8">
+            <h3 class="text-center">La importancia de la vacunación como medida para la prevención de enfermedades</h3>
+            <p><strong>Por más de 200 años las vacunas han formado parte de la lucha de la humanidad en contra de las enfermedades y son consideradas como una herramienta que favorece la salud de la población.</strong></p>
+            <p style="text-align: justify">Son preparaciones farmacéuticas que contienen agentes que simulan a los microorganismos causantes de una enfermedad, en forma debilitada, atenuada o inactivada y se administran con la finalidad de que el organismo los conozca, para que pueda producir anticuerpos y activar la respuesta del sistema inmunológico, así, guarda información que le ayuda a saber cómo atacar diversas enfermedades infectocontagiosas provocadas por virus, bacterias y/o parásitos.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="containerHome">
+                <img src="https://www.gob.mx/cms/uploads/article/main_image/104065/PortadaBLOG.jpg" class="imageHome"  alt="Importancia de la vacunacion">
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (Model.News.Count() > 0)
+{
+    <hr/>
+    <div class="row titleBackground mt-1">
+        <div class="col-sm-12">
+            <h3 class="display-5">Noticias</h3>
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var news in Model.News.OrderBy(o => o.Id))
+        {
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="@news.ImageUrl" class="card-img-top" alt="@news.Name" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@news.Name</h5>
+                        <a asp-action="Details" class="btn btn-outline-primary btn-sm" style="border-radius:5px" asp-route-id="@news.Id">Abrir</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+
+
+}

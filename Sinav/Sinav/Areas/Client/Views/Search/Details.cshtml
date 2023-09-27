@@ -1,0 +1,139 @@
+﻿@model Sinav.Models.ViewModels.UserVM
+@{
+    ViewData["Title"] = "Detalle usuario";
+
+    //Obtener edad
+    DateTime fechaNacimiento = Model.User.Birthdate;
+    DateTime hoy = DateTime.Today;
+    int edad = hoy.Year - fechaNacimiento.Year;
+
+    if (hoy.Month < fechaNacimiento.Month || (hoy.Month == fechaNacimiento.Month && hoy.Day < fechaNacimiento.Day))
+    {
+        edad--;
+    }
+
+    //Modificar tipo documento
+    string tipoDoc = Model.User.DocumentType;
+    string tipoDocEdited = "Registro Civil";
+    if (tipoDoc == "CC")
+    {
+        tipoDocEdited = "Cedula de ciudadania";
+    }
+    if (tipoDoc == "TI")
+    {
+        tipoDocEdited = "Targeta de identidad";
+    }
+    if (tipoDoc == "PA")
+    {
+        tipoDocEdited = "Pasaporte";
+    }
+    if (tipoDoc == "CE")
+    {
+        tipoDocEdited = "Cedula extranjeria";
+    }
+
+    //Parsear fecha
+    DateTime birthDate = Model.User.Birthdate;
+    string formatedBirtDate = birthDate.ToString("dd-MMMM-yyyy");
+
+    //Genero
+    string gender = Model.User.Gender;
+    string formatedGender = "Masculino";
+    if (gender == "F")
+    {
+        formatedGender = "Femenino";
+    }
+
+    //id usuario
+    var userId = Model.User.Id;
+}
+
+<div class="container-fluid mt-4">
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="text-primary m-3">@Html.DisplayFor(u => u.User.Name) @Html.DisplayFor(u => u.User.Surname)</h3>
+            <hr />
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p><strong>Edad: </strong>@edad años</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><strong>Genero: </strong>@formatedGender</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><strong>Direccion: </strong>@Html.DisplayFor(m => m.User.Address)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p><strong>Tipo Documento: </strong>@tipoDocEdited</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><strong>Numero Documento: </strong>@Html.DisplayFor(m => m.User.DocumentNumber)</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><strong>Telefono: </strong>@Html.DisplayFor(m => m.User.Phone)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Fecha nacimiento: </strong>@formatedBirtDate</p>
+                    </div>
+                </div>
+            </div>
+            <hr />
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="text-primary mb-3">Inmunizaciones</h5>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="text-primary" scope="col">Vacuna</th>
+                                    <th class="text-primary" scope="col">Dosis</th>
+                                    <th class="text-primary" scope="col">Lote</th>
+                                    <th class="text-primary" scope="col">Fecha</th>
+                                </tr>
+                            </thead>
+
+                            @if (Model.GetListVaccineUser.Any())
+                            {
+                                <tbody>
+                                    @foreach (var item in Model.GetListVaccineUser)
+                                    {
+
+                                        <tr>
+                                            <td>@item.Vaccine.Name</td>
+                                            <td>@item.Dose</td>
+                                            <td>@item.Rate</td>
+                                            <td>@item.CreatedAt.ToShortDateString()</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4"><p class="text-center mt-3"><strong>A la fecha no se le han aplicado vacunas al usuario</strong></p></td>
+                                </tr>
+                            }
+
+                        </table>
+                    </div>
+                    <div />
+                </div>
+
+                <hr />
+
+                <div>
+                    <a asp-controller="Search" asp-action="Index">Volver</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

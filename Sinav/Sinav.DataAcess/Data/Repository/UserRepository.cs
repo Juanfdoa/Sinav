@@ -13,6 +13,12 @@ namespace Sinav.DataAcess.Data.Repository
             _context = context;
         }
 
+        public User GetUserByDocument(string document)
+        {
+            var userDb = _context.TblUser.FirstOrDefault(x => x.DocumentNumber == document);
+            return userDb!;
+        }
+
         public void Update(User user)
         {
             var userDB = _context.TblUser.FirstOrDefault(x => x.Id == user.Id);

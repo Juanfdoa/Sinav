@@ -20,6 +20,12 @@ namespace Sinav.Areas.Client.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Success()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(PQRS pqrs)
@@ -28,10 +34,14 @@ namespace Sinav.Areas.Client.Controllers
             {
                 _unitOfWork.PQRS.Add(pqrs);
                 _unitOfWork.Save();
+                return RedirectToAction(nameof(Success));
+            }
+            else
+            {
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(pqrs);
+            return View();
         }
     }
 }

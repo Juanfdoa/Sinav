@@ -20,12 +20,19 @@ namespace Sinav.Areas.Client.Controllers
         {
             HomeVM homeVM = new()
             {
-                sliders = _unitOfWork.Slider.GetAll(x => x.Active)
+                sliders = _unitOfWork.Slider.GetAll(x => x.Active),
+                News = _unitOfWork.News.GetAll(x => x.Active && x.Status)
             };
 
             ViewBag.IsHome = true;
 
             return View(homeVM);
+        }
+
+        public IActionResult Details(int id)
+        {
+            var newDb = _unitOfWork.News.Get(id);
+            return View(newDb);
         }
 
         public IActionResult Privacy()

@@ -1,0 +1,23 @@
+﻿@model Sinav.Models.Entities.User
+
+@{
+    ViewData["Title"] = "Consultar Usuario";
+}
+
+<div class="container border rounded mt-5 p-4">
+    <form method="get" asp-action="Details">
+        <h2 class="text-primary">Consultar Usuario</h2>
+        <div class="col-md-12">
+            <div class="form-floating mb-3">
+                <input asp-for="DocumentNumber" class="form-control" autocomplete="name" aria-required="true" placeholder="Numero documento" />
+                <label asp-for="DocumentNumber">Ingrese su número de documento</label>
+            </div>
+            <div class="form-floating">
+                <div class="col-md-3 ">
+                    <button type="submit" class="btn btn-outline-primary form-control">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+

@@ -1,7 +1,7 @@
 ﻿@model Sinav.Models.ViewModels.HomeVM
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+<div id="carouselExampleControls" class="carousel slide sliderContainer" data-bs-ride="carousel">
+    <div class="carousel-inner" style="margin-top:20px">
         @{
             int cont = 0;
             @foreach (var item in Model.sliders)
@@ -11,7 +11,7 @@
                     var itemDinamico = cont++ == 0 ? "active" : "";
                     <br />
                     <div class="carousel-item  @itemDinamico">
-                        <img src="@Url.Content(item.ImageUrl)" class="d-block w-100" style="width:100%; height:500px" alt="@Html.Raw(item.Name)">
+                        <img src="@Url.Content(item.ImageUrl)" class="imagen-fondo"  alt="@Html.Raw(item.Name)">
                     </div>
                 }
             }

@@ -53,3 +53,56 @@ table.dataTable tbody td {
     background-color: #ffffff; /* Cambia el color claro según tus preferencias */
     color: #000000; /* Cambia el color del texto según tus preferencias */
 }
+
+.sliderContainer {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.imagen-fondo {
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* o contain, según tus necesidades */
+    background-position: center;
+}
+
+.containerHome {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.imageHome {
+    width: 400px;
+    height: 300px;
+}
+
+@media screen and (max-width: 767px) {
+    .sliderContainer {
+        width: 100%; /* Cambia el ancho del contenedor para dispositivos móviles */
+        height: 250px; /* Cambia la altura si es necesario */
+    }
+
+    .imagen-fondo {
+        margin-top:10px;
+        width: 100%;
+        height: 100%;
+        background-size: cover; /* o contain, según tus necesidades */
+        background-position: center;
+    }
+
+    .containerHome {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .imageHome {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+
+

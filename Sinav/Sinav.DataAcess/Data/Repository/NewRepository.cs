@@ -20,6 +20,7 @@ namespace Sinav.DataAcess.Data.Repository
             {
                 newDb.Name = news.Name;
                 newDb.ImageUrl = news.ImageUrl;
+                newDb.Description = news.Description;
                 newDb.Status = news.Status;
                 newDb.UpdatedAt = DateTime.Now;
             }
