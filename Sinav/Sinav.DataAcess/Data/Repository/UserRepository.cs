@@ -15,7 +15,7 @@ namespace Sinav.DataAcess.Data.Repository
 
         public User GetUserByDocument(string document)
         {
-            var userDb = _context.TblUser.FirstOrDefault(x => x.DocumentNumber == document);
+            var userDb = _context.TblUser.FirstOrDefault(x => x.DocumentNumber == document && x.Active);
             return userDb!;
         }
 

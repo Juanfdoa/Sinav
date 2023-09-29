@@ -641,6 +641,7 @@ C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.AspNetCore.Diagn
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.Build.dll
@@ -701,6 +702,7 @@ C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\NuGet.Packaging.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\NuGet.ProjectModel.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\NuGet.Protocol.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Rotativa.AspNetCore.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\SQLitePCLRaw.core.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
@@ -924,5 +926,3 @@ C:\Users\j\Desktop\Sinav\Sinav\Sinav\obj\Debug\net7.0\refint\Sinav.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\obj\Debug\net7.0\Sinav.pdb
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\obj\Debug\net7.0\Sinav.genruntimeconfig.cache
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\obj\Debug\net7.0\ref\Sinav.dll
-C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Rotativa.AspNetCore.dll
