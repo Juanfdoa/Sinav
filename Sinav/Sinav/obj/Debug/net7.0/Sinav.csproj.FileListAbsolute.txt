@@ -924,3 +924,5 @@ C:\Users\j\Desktop\Sinav\Sinav\Sinav\obj\Debug\net7.0\refint\Sinav.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\obj\Debug\net7.0\Sinav.pdb
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\obj\Debug\net7.0\Sinav.genruntimeconfig.cache
 C:\Users\j\Desktop\Sinav\Sinav\Sinav\obj\Debug\net7.0\ref\Sinav.dll
+C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\j\Desktop\Sinav\Sinav\Sinav\bin\Debug\net7.0\Rotativa.AspNetCore.dll

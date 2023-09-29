@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jspG8d2P18cmZU9qiTTw2bMPF7GMiZ+BOEDccgAVr64=",
+  "Hash": "BKhNzIpGn9V6Mu0oYnVr6EOVCQFmNX0QjDUX5TG1I4Q=",
   "Source": "Sinav",
   "BasePath": "_content/Sinav",
   "Mode": "Default",
@@ -1156,12 +1156,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\favicon.ico",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "images/favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1170,7 +1170,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\images\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\04c20cb9-3a6e-4f22-9820-c05b172f5ffe.jpg",
@@ -1309,23 +1309,6 @@
       "OriginalItemSpec": "wwwroot\\images\\sliders\\48ab5712-38ed-4656-972f-a2d0ba88b7fa.jpg"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\659244d7-65c3-40f2-b741-7825a1f8c5d1.jpg",
-      "SourceId": "Sinav",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
-      "BasePath": "_content/Sinav",
-      "RelativePath": "images/sliders/659244d7-65c3-40f2-b741-7825a1f8c5d1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\sliders\\659244d7-65c3-40f2-b741-7825a1f8c5d1.jpg"
-    },
-    {
       "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\8d9e4c17-6330-42e3-ab0d-371c0a20e3e8.png",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
@@ -1358,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\sliders\\9d9c9fb0-0197-487f-b503-34582d618439.png"
+    },
+    {
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\a52eda08-d630-4137-af06-3066ade25b87.jpg",
+      "SourceId": "Sinav",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "BasePath": "_content/Sinav",
+      "RelativePath": "images/sliders/a52eda08-d630-4137-af06-3066ade25b87.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sliders\\a52eda08-d630-4137-af06-3066ade25b87.jpg"
     },
     {
       "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg",
@@ -1394,12 +1394,12 @@
       "OriginalItemSpec": "wwwroot\\images\\sliders\\c2d4c1aa-fd47-40be-a8c0-1aa201a7dc85.jpg"
     },
     {
-      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\c3043ed7-787c-46ed-8cbf-5e21e1d659c4.jpg",
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\ddbd1548-bc39-4a8b-98f9-01994fccc6f1.png",
       "SourceId": "Sinav",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
       "BasePath": "_content/Sinav",
-      "RelativePath": "images/sliders/c3043ed7-787c-46ed-8cbf-5e21e1d659c4.jpg",
+      "RelativePath": "images/sliders/ddbd1548-bc39-4a8b-98f9-01994fccc6f1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1408,7 +1408,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\sliders\\c3043ed7-787c-46ed-8cbf-5e21e1d659c4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\sliders\\ddbd1548-bc39-4a8b-98f9-01994fccc6f1.png"
     },
     {
       "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png",
@@ -1443,6 +1443,91 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\statics\\importanciaVacunacion.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\logo.png",
+      "SourceId": "Sinav",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "BasePath": "_content/Sinav",
+      "RelativePath": "images/statics/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\statics\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\logoPDF.png",
+      "SourceId": "Sinav",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "BasePath": "_content/Sinav",
+      "RelativePath": "images/statics/logoPDF.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\statics\\logoPDF.png"
+    },
+    {
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\pdf.jpg",
+      "SourceId": "Sinav",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "BasePath": "_content/Sinav",
+      "RelativePath": "images/statics/pdf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\statics\\pdf.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\pdf.png",
+      "SourceId": "Sinav",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "BasePath": "_content/Sinav",
+      "RelativePath": "images/statics/pdf.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\statics\\pdf.png"
+    },
+    {
+      "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\volver.jpg",
+      "SourceId": "Sinav",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\",
+      "BasePath": "_content/Sinav",
+      "RelativePath": "images/statics/volver.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\statics\\volver.jpg"
     },
     {
       "Identity": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\allergies.js",

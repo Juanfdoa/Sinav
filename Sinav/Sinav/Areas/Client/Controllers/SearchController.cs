@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Rotativa.AspNetCore;
+using Sinav.Data;
 using Sinav.DataAcess.Data.Repository.IRepository;
 using Sinav.Models.Entities;
 using Sinav.Models.ViewModels;
+using System.Data.Entity;
 
 namespace Sinav.Areas.Client.Controllers
 {
@@ -9,10 +12,12 @@ namespace Sinav.Areas.Client.Controllers
     public class SearchController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ApplicationDbContext _context;
 
-        public SearchController(IUnitOfWork unitOfWork)
+        public SearchController(IUnitOfWork unitOfWork, ApplicationDbContext context)
         {
             _unitOfWork = unitOfWork;
+            _context = context;
         }
 
         [HttpGet]
@@ -26,7 +31,7 @@ namespace Sinav.Areas.Client.Controllers
         {
             if (DocumentNumber == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error));
             }
 
             userVM.User = _unitOfWork.User.GetUserByDocument(DocumentNumber);
@@ -36,8 +41,6 @@ namespace Sinav.Areas.Client.Controllers
             }
             else
             {
-                userVM.GetListAllergyUser = _unitOfWork.AllergyUser.GetListAllergyUser(userVM.User.Id);
-                userVM.GetListDiseaseUser = _unitOfWork.DiseaseUser.GetListDiseaseUser(userVM.User.Id);
                 userVM.GetListVaccineUser = _unitOfWork.VaccineUser.GetListVaccineUser(userVM.User.Id);
             }
 
@@ -50,5 +53,29 @@ namespace Sinav.Areas.Client.Controllers
             return View();
         }
 
+        public IActionResult DownloadPdf(int? id, UserVM userVM)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            userVM.User = _unitOfWork.User.Get(id.Value);
+            if (userVM.User == null)
+            {
+                return RedirectToAction(nameof(Error));
+            }
+            else
+            {
+                userVM.GetListVaccineUser = _unitOfWork.VaccineUser.GetListVaccineUser(userVM.User.Id);
+            }
+
+            return new ViewAsPdf("DownloadPdf", userVM)
+            {
+                FileName = $"Carnet-{userVM.User.Name + " " + userVM.User.Surname}.pdf",
+                PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+        }
     }
 }

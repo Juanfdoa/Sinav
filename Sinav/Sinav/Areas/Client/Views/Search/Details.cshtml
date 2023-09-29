@@ -129,8 +129,15 @@
 
                 <hr />
 
-                <div>
-                    <a asp-controller="Search" asp-action="Index">Volver</a>
+                <div class="row">
+                    <div class="col-md-2">
+                        <a asp-controller="Search" asp-action="Index">
+                            <img src="~/images/statics/volver.jpg" style="width:50px; height:50px" alt="volver">
+                        </a>
+                        <a asp-controller="Search" asp-action="DownloadPdf" asp-route-id="@Model.User.Id">
+                            <img src="~/images/statics/pdf.jpg" style="width:50px; height:50px" alt="Logo PDF">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -7642,7 +7642,7 @@ textarea.form-control-lg {
 
 .text-bg-secondary {
     color: #000 !important;
-    background-color: RGBA(var(--bs-secondary-rgb), var(--bs-bg-opacity, 1)) !important;
+    background-color: #2196F3 !important;
 }
 
 .text-bg-success {

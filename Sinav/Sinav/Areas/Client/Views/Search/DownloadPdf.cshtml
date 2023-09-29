@@ -1,0 +1,223 @@
+﻿@model Sinav.Models.ViewModels.UserVM
+@{
+    Layout = null;
+    //Obtener edad
+    DateTime fechaNacimiento = Model.User.Birthdate;
+    DateTime hoy = DateTime.Today;
+    int edad = hoy.Year - fechaNacimiento.Year;
+
+    if (hoy.Month < fechaNacimiento.Month || (hoy.Month == fechaNacimiento.Month && hoy.Day < fechaNacimiento.Day))
+    {
+        edad--;
+    }
+
+    //Modificar tipo documento
+    string tipoDoc = Model.User.DocumentType;
+    string tipoDocEdited = "Registro Civil";
+    if (tipoDoc == "CC")
+    {
+        tipoDocEdited = "Cedula de ciudadania";
+    }
+    if (tipoDoc == "TI")
+    {
+        tipoDocEdited = "Targeta de identidad";
+    }
+    if (tipoDoc == "PA")
+    {
+        tipoDocEdited = "Pasaporte";
+    }
+    if (tipoDoc == "CE")
+    {
+        tipoDocEdited = "Cedula extranjeria";
+    }
+
+    //Parsear fecha
+    DateTime birthDate = Model.User.Birthdate;
+    string formatedBirtDate = birthDate.ToString("dd-MMMM-yyyy");
+
+    //Genero
+    string gender = Model.User.Gender;
+    string formatedGender = "Masculino";
+    if (gender == "F")
+    {
+        formatedGender = "Femenino";
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Descargar informacion de usuario</title>
+    <style>
+        .contenedor {
+           width: 900px !important;
+           height:842px !important;
+           margin:auto;
+        }
+        body{
+           font-family:Arial, Helvetica, sans-serif
+        }
+        p.title{
+           font-weight:bold;
+        }
+         p.title2{
+           font-weight:bold;
+            color: #00ABF6;
+           font-size:40px;
+        }
+        p.text{
+           font-size:15px;
+           font-weight:100;
+           color:#858585;
+        }
+        p{
+           margin:0px
+        }
+        .tbth{
+           text-align:left;
+        }
+
+        table.tbVaccines {
+            border-collapse: separate;
+            border-spacing: 4px;
+        }
+
+        table.tbVaccines thead tr th {
+        background-color: #00ABF6;
+        padding:10px;
+        font-size:15px;
+        color:white;
+        }
+
+        table.tbVaccines tbody tr td {
+        padding:10px;
+        }
+        .item{
+           font-size:15px;
+           font-weight:100;
+           color:#757575;
+        }
+        .item-2{
+        font-size:15px;
+           font-weight:bold;
+           color:#757575;
+        }
+
+        .item-3{
+           font-size:15px;
+           font-weight:bold;
+            background-color: #00ABF6;
+           color:white;
+        }
+
+         .td-item {
+           border-bottom:2px solid #E8E8E8 !important;
+         }
+    </style>
+</head>
+<body >
+    <div class="contenedor">
+        <table style="width:100%">
+            <tr>
+                <td style="text-align:center; margin-right:30px">
+                    <table>
+                        <tr><td><p class="title2">Sistema Nacional de</p></td></tr>
+                        <tr><td><p class="title2">Vacunación</p></td></tr>
+                    </table>
+                </td>
+                <td style="text-align:right; margin-top:0">
+                    <img src="~/images/statics/logoPDF.png" style="width: 150px; margin-right:0px" />
+                </td>
+            </tr>
+        </table>
+        <hr />
+         <table style="width:100%">
+            <tr>
+                <td>
+                    <table >
+                        <tr>
+                            <td>
+                                <p class="title">@Html.DisplayFor(u => u.User.Name) @Html.DisplayFor(u => u.User.Surname)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="text">Edad: @edad años </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="text">Tipo Documento: @tipoDocEdited</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="text">Fecha Nacimiento: @formatedBirtDate</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><p class="title"></p></td>
+                        </tr>
+                        <tr>
+                            <td><p class="text">Genero: @formatedGender</p></td>
+                        </tr>
+                        <tr>
+                            <td><p class="text">Numero Documento: @Html.DisplayFor(m => m.User.DocumentNumber)</p></td>
+                        </tr>
+                        <tr>
+                            <td><p class="text"></p></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><p class="title"></p></td>
+                        </tr>
+                        <tr>
+                            <td><p class="text">Dirección: @Html.DisplayFor(m => m.User.Address)</p></td>
+                        </tr>
+                        <tr>
+                            <td><p class="text">Telefono: @Html.DisplayFor(m => m.User.Phone)</p></td>
+                        </tr>
+                        <tr>
+                            <td><p class="text"></p></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <table class="tbVaccines" style="width:100%">
+            <thead>
+                <tr>
+                    <th class="tbth">Vacuna</th>
+                    <th class="tbth">Dosis</th>
+                    <th class="tbth">Lote</th>
+                    <th class="tbth">Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var item in Model.GetListVaccineUser)
+                    {
+                        <tr>
+                            <td class="td-item"><p class="item">@item.Vaccine.Name</p></td>
+                            <td class="td-item"><p class="item">@item.Dose</p></td>
+                            <td class="td-item"><p class="item">@item.Rate</p></td>
+                            <td class="td-item"><p class="item">@item.CreatedAt.ToShortDateString()</p></td>
+                        </tr>
+
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

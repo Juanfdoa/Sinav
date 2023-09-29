@@ -290,6 +290,10 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "datatables.net": {
               "target": "Package",
               "version": "[1.13.6, )"
