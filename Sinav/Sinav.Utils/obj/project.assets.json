@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\j\\.nuget\\packages\\": {}
+    "C:\\Users\\FernandoAcevedo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj",
+      "projectUniqueName": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj",
       "projectName": "Sinav.Utils",
-      "projectPath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj",
-      "packagesPath": "C:\\Users\\j\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav.Utils\\obj\\",
+      "projectPath": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav.Utils\\Sinav.Utils.csproj",
+      "packagesPath": "C:\\Users\\FernandoAcevedo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav.Utils\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FernandoAcevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -40,6 +46,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -61,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

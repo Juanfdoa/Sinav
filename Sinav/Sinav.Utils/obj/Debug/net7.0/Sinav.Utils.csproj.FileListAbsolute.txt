@@ -31,3 +31,15 @@ C:\Users\j\Desktop\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\refint\Sinav.Utils.dll
 C:\Users\j\Desktop\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.pdb
 C:\Users\j\Desktop\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\ref\Sinav.Utils.dll
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\bin\Debug\net7.0\Sinav.Utils.deps.json
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\bin\Debug\net7.0\Sinav.Utils.dll
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\bin\Debug\net7.0\Sinav.Utils.pdb
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.AssemblyInfoInputs.cache
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.AssemblyInfo.cs
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.csproj.CoreCompileInputs.cache
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.sourcelink.json
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.dll
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\refint\Sinav.Utils.dll
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\Sinav.Utils.pdb
+C:\Users\FernandoAcevedo\Documents\Project\Sinav\Sinav\Sinav.Utils\obj\Debug\net7.0\ref\Sinav.Utils.dll

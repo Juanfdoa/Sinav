@@ -1,375 +1,375 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\j\\.nuget\\packages\\datatables.net-responsive\\2.5.0\\contentFiles\\any\\any\\wwwroot\\js\\dataTables.responsive.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\.nuget\\packages\\datatables.net-responsive\\2.5.0\\contentFiles\\any\\any\\wwwroot\\js\\dataTables.responsive.js",
       "PackagePath": "staticwebassets\\js\\dataTables.responsive.js"
     },
     {
-      "Id": "C:\\Users\\j\\.nuget\\packages\\datatables.net-responsive\\2.5.0\\contentFiles\\any\\any\\wwwroot\\js\\dataTables.responsive.min.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\.nuget\\packages\\datatables.net-responsive\\2.5.0\\contentFiles\\any\\any\\wwwroot\\js\\dataTables.responsive.min.js",
       "PackagePath": "staticwebassets\\js\\dataTables.responsive.min.js"
     },
     {
-      "Id": "C:\\Users\\j\\.nuget\\packages\\datatables.net\\1.13.6\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\.nuget\\packages\\datatables.net\\1.13.6\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.js",
       "PackagePath": "staticwebassets\\js\\jquery.dataTables.js"
     },
     {
-      "Id": "C:\\Users\\j\\.nuget\\packages\\datatables.net\\1.13.6\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.min.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\.nuget\\packages\\datatables.net\\1.13.6\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Sinav.bundle.scp.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Sinav.bundle.scp.css",
       "PackagePath": "staticwebassets\\Sinav.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\favicon.ico",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\images\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\04c20cb9-3a6e-4f22-9820-c05b172f5ffe.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\04c20cb9-3a6e-4f22-9820-c05b172f5ffe.jpg",
       "PackagePath": "staticwebassets\\images\\news\\04c20cb9-3a6e-4f22-9820-c05b172f5ffe.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\1f4bb9a5-e778-4598-b56d-bcb72f7fed27.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\1f4bb9a5-e778-4598-b56d-bcb72f7fed27.jpg",
       "PackagePath": "staticwebassets\\images\\news\\1f4bb9a5-e778-4598-b56d-bcb72f7fed27.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\3af6a3b3-1b21-4bec-b67a-f856bb94ffff.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\3af6a3b3-1b21-4bec-b67a-f856bb94ffff.jpg",
       "PackagePath": "staticwebassets\\images\\news\\3af6a3b3-1b21-4bec-b67a-f856bb94ffff.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg",
       "PackagePath": "staticwebassets\\images\\news\\4d2e9c3e-fbfa-43a4-ac38-70280107665c.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\64084386-47ed-4ea5-95aa-a1f03fbe0d46.jpeg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\news\\64084386-47ed-4ea5-95aa-a1f03fbe0d46.jpeg",
       "PackagePath": "staticwebassets\\images\\news\\64084386-47ed-4ea5-95aa-a1f03fbe0d46.jpeg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\11e28c32-4501-4c5e-874a-f413a5a46bb3.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\11e28c32-4501-4c5e-874a-f413a5a46bb3.jpg",
       "PackagePath": "staticwebassets\\images\\sliders\\11e28c32-4501-4c5e-874a-f413a5a46bb3.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg",
       "PackagePath": "staticwebassets\\images\\sliders\\1bacc737-4cb4-46f3-83e8-10c39652b079.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\48ab5712-38ed-4656-972f-a2d0ba88b7fa.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\48ab5712-38ed-4656-972f-a2d0ba88b7fa.jpg",
       "PackagePath": "staticwebassets\\images\\sliders\\48ab5712-38ed-4656-972f-a2d0ba88b7fa.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\8d9e4c17-6330-42e3-ab0d-371c0a20e3e8.png",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\8d9e4c17-6330-42e3-ab0d-371c0a20e3e8.png",
       "PackagePath": "staticwebassets\\images\\sliders\\8d9e4c17-6330-42e3-ab0d-371c0a20e3e8.png"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\9d9c9fb0-0197-487f-b503-34582d618439.png",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\9d9c9fb0-0197-487f-b503-34582d618439.png",
       "PackagePath": "staticwebassets\\images\\sliders\\9d9c9fb0-0197-487f-b503-34582d618439.png"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\a52eda08-d630-4137-af06-3066ade25b87.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\a52eda08-d630-4137-af06-3066ade25b87.jpg",
       "PackagePath": "staticwebassets\\images\\sliders\\a52eda08-d630-4137-af06-3066ade25b87.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg",
       "PackagePath": "staticwebassets\\images\\sliders\\ad79f60e-35cb-430e-b0ba-f601cfa87a83.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\c2d4c1aa-fd47-40be-a8c0-1aa201a7dc85.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\c2d4c1aa-fd47-40be-a8c0-1aa201a7dc85.jpg",
       "PackagePath": "staticwebassets\\images\\sliders\\c2d4c1aa-fd47-40be-a8c0-1aa201a7dc85.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\ddbd1548-bc39-4a8b-98f9-01994fccc6f1.png",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\ddbd1548-bc39-4a8b-98f9-01994fccc6f1.png",
       "PackagePath": "staticwebassets\\images\\sliders\\ddbd1548-bc39-4a8b-98f9-01994fccc6f1.png"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png",
       "PackagePath": "staticwebassets\\images\\sliders\\f6e81905-ffac-42d7-82e9-364983e15ac8.png"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\importanciaVacunacion.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\importanciaVacunacion.jpg",
       "PackagePath": "staticwebassets\\images\\statics\\importanciaVacunacion.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\logo.png",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\logo.png",
       "PackagePath": "staticwebassets\\images\\statics\\logo.png"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\logoPDF.png",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\logoPDF.png",
       "PackagePath": "staticwebassets\\images\\statics\\logoPDF.png"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\pdf.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\pdf.jpg",
       "PackagePath": "staticwebassets\\images\\statics\\pdf.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\pdf.png",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\pdf.png",
       "PackagePath": "staticwebassets\\images\\statics\\pdf.png"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\volver.jpg",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\images\\statics\\volver.jpg",
       "PackagePath": "staticwebassets\\images\\statics\\volver.jpg"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\allergies.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\allergies.js",
       "PackagePath": "staticwebassets\\js\\allergies.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\diseases.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\diseases.js",
       "PackagePath": "staticwebassets\\js\\diseases.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\news.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\news.js",
       "PackagePath": "staticwebassets\\js\\news.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\sliders.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\sliders.js",
       "PackagePath": "staticwebassets\\js\\sliders.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\suppliers.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\suppliers.js",
       "PackagePath": "staticwebassets\\js\\suppliers.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\users.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\users.js",
       "PackagePath": "staticwebassets\\js\\users.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\vaccines.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\js\\vaccines.js",
       "PackagePath": "staticwebassets\\js\\vaccines.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\j\\Desktop\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\FernandoAcevedo\\Documents\\Project\\Sinav\\Sinav\\Sinav\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

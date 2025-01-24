@@ -70,9 +70,12 @@ namespace Sinav.Areas.Client.Controllers
                 userVM.GetListVaccineUser = _unitOfWork.VaccineUser.GetListVaccineUser(userVM.User.Id);
             }
 
+            var fileName = $"Carnet-{userVM.User.Name + " " + userVM.User.Surname}.pdf";
+            var encodedFileName = Uri.EscapeDataString(fileName);
+
             return new ViewAsPdf("DownloadPdf", userVM)
             {
-                FileName = $"Carnet-{userVM.User.Name + " " + userVM.User.Surname}.pdf",
+                FileName = encodedFileName,
                 PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
                 PageSize = Rotativa.AspNetCore.Options.Size.A4
             };
